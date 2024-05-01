@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-weight: 100;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 100%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: 1px solid white;
+    font-size: 14px;
+    padding: 5px 5px;
+}
+
+button {
+    color: white;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+    padding: 5px 5px;
+}
+
+button:hover {
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+    transition: 0.5s;
+}
+
+input:focus {
+    border-bottom: 1px solid whitesmoke;
+}
+
+#buttons {
+    background-color: black;
+    max-height: 20vh;
+}
+
+picture {
+    width: 100%;
+}
+
+#background_image {
+    width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+    #mobile {
+        display: block;
+    }
+
+    input {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px;
+    }
+
+    #buttons {
+        max-height: 23vh;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .wrapper_raw {
+        width: 100%;
+        min-height: 10vh;
+    }
+
+    #header_icon {
+        width: 100%;
+        display: flex;
+    }
+
+    #herbal_tea {
+        padding: 3px;
+    }
+    
+}  
+@media screen and (max-width: 373px) {
+    #mobile {
+        display: block;
+    }
+
+    input {
+        padding: 5px;
+    }
+
+    button {
+        padding: 20px;
+    }
+
+    #buttons {
+        max-height: 23vh;
+    }
+
+    .row {
+        display: block;
+    }
+
+    #herbal_tea {
+        padding: 3px;
+    }
+    
+}
